@@ -123,13 +123,33 @@ console.log();
 
 
 //create a variable and after that assign a string with its value being: He's got it!
+console.log("create a variable and after that assign a string with its value being: He's got it!");
+let var21;
+var21 = "He's got it";
+console.log(var21);
+console.log();
 
-/*
-1. create a variable and assign a value on how much a restaurant bill is.
-2. create a variable and assign a value on how much tax they should pay.
-3. create a variable that will calculate the bill * tax and its output would be: Your total bill is <total bill> $.
- */
+
+//1. create a variable and assign a value on how much a restaurant bill is.
+console.log("1. create a variable and assign a value on how much a restaurant bill is.");
+let var22 = 100;
+
+
+//2. create a variable and assign a value on how much tax they should pay.
+console.log("2. create a variable and assign a value on how much tax they should pay.");
+let var23 = 1.17;
+
+//3. create a variable that will calculate the bill * tax and its output would be: Your total bill is <total bill> $.
+console.log("3. create a variable that will calculate the bill * tax and its output would be: Your total bill is <total bill> $.");
+let var24 = var22 * var23;
+console.log("Your total bill is ", var24, "$.");
 
 // Round the number 50.6 to its nearest integer
+console.log("Round the number 50.6 to its nearest integer");
+console.log(Math.round(50.6));
+
 
 //Create a variable that is undefined
+console.log("Create a variable that is undefined");
+let var25;
+console.log(var25);
