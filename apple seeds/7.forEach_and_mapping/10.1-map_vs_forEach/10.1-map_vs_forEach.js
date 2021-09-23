@@ -33,8 +33,3 @@ const newReleases = [{
 ];
 
 newReleases.forEach(element => console.log(element.id));
-
-
-console.log((0.1 + 0.2) === 0.3);
-console.log(0.1 + 0.3);
-console.log(0.4);
