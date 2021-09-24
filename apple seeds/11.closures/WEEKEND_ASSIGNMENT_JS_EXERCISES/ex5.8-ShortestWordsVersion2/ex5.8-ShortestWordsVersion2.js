@@ -1,16 +1,14 @@
 function shortestWords(str) {
     splitStr = str.split(" ");
     let maxWordLength = splitStr[0].length;
-    let maxWord = "";
     splitStr.forEach(element => {
         if (element.length > maxWordLength)
             maxWordLength = element.length;
     });
-    splitStr.forEach(element => {
-        if (element.length == maxWordLength)
-            console.log(element);
-    });
+
+    return splitStr.filter(word => word.length == maxWordLength).join(" ");
+
 }
 
-shortestWords("Hello world whatsss going with you guys");
-shortestWords("Laboris in eiusmod ex ad dolore ea proident incididunt deserunt aute officia.");
+console.log(shortestWords("Hello world whatsss going with you guys"));
+console.log(shortestWords("Laboris in eiusmod ex inrtdidgft ad dolore ea proident incididunt deserunt aute officia."));
