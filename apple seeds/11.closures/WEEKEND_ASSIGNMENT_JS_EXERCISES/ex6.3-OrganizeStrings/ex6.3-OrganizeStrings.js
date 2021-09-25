@@ -7,6 +7,8 @@ function organizeStrings(str1, str2) {
     return Array.from(mySet).sort().join("");
 }
 
-const a = "xyaabbbccccdefww";
+let a = "xyaabbbccccdefww";
 const b = "xxxxyyyyabklmopq";
 console.log(organizeStrings(a, b));
+a = "abcdefghijklmnopqrstuvwxyz";
+console.log(organizeStrings(a, a));
