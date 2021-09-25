@@ -32,4 +32,20 @@ const newReleases = [{
     },
 ];
 
-newReleases.forEach(element => console.log(element.id));
+function idNameForEach(obj) {
+    let idNameMovies = [];
+    obj.forEach(element => {
+        idNameMovies.push({ id: element.id, name: element.title });
+    });
+    return idNameMovies
+}
+
+function idNameMap(obj) {
+    let idNameMovies = obj.map(function(val) {
+        return { id: val.id, name: val.title };
+    });
+    return idNameMovies;
+}
+
+console.log(idNameForEach(newReleases));
+console.log(idNameMap(newReleases));
