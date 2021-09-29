@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    /* align-items: center; */
+    /* justify-items: center; */
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* background: chocolate; */
+    text-align: center;
+}
+
+.container .mainElements {
+    flex-direction: column;
+}
+
+.container h1 {
+    /* background: chartreuse; */
+}
+
+.container h2 {
+    text-align: center;
+    /* background: chartreuse; */
+}
+
+.container .codeBox {
+    display: flex;
+    justify-content: center;
+    border: black 3px solid;
+    width: 500px;
+    height: 250px;
+}
+
+.container .codeBox .inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.container .codeBox .inputContainer .input-boxes-row {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.container .codeBox .inputContainer .inp {
+    width: 50px;
+    height: 50px;
+}
+
+.container .codeBox .inputContainer .verfiy-box .btn {
+    width: 125px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-size: 2rem;
+}
+
+.container .codeBox .inputContainer .verfiy-box .btn:hover {
+    background: dimgray;
+    border: black 2px solid;
+}
