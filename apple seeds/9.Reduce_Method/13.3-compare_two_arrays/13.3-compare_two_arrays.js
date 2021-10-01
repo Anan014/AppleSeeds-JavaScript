@@ -24,3 +24,4 @@ function comparFunction(arr1, arr2) {
 }
 
 comparFunction(food, food1);
+//done
