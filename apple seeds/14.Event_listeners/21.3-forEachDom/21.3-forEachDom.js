@@ -20,7 +20,6 @@ const users = [{
 
 const ol = document.createElement("ol");
 
-
 users.forEach(element => {
     let li = document.createElement("li");
     li.appendChild(document.createTextNode(`${element.firstName} ${element.lastName}`));
