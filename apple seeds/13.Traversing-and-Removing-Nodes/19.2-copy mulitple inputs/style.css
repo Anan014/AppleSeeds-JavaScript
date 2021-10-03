@@ -19,9 +19,11 @@ body {
     flex-direction: column;
 }
 
+
+/* 
 .container h1 {
-    /* background: chartreuse; */
-}
+    background: chartreuse;
+} */
 
 .container h2 {
     text-align: center;
