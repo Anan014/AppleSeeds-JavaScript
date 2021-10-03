@@ -30,7 +30,7 @@ const myFuncArrow = () => {
     console.log(this);
 };
 myFuncArrow();
-//empty
+//emptyy
 
 //5
 console.log("Question 5");
