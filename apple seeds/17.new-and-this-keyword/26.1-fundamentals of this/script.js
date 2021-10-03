@@ -21,8 +21,8 @@ console.log("Question 3");
 const myFuncDec = function() {
     console.log(this);
 };
-
 myFuncDec();
+//global object
 
 //4
 console.log("Question 4");
@@ -30,6 +30,7 @@ const myFuncArrow = () => {
     console.log(this);
 };
 myFuncArrow();
+//empty
 
 //5
 console.log("Question 5");
