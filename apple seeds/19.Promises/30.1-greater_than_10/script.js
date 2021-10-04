@@ -3,9 +3,9 @@ const checkTen = (num) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             if (num >= 10) {
-                resolve();
+                resolve("Greater than 10");
             } else {
-                reject();
+                reject("Less than 10");
             }
         }, 1000);
     });
@@ -13,9 +13,9 @@ const checkTen = (num) => {
 }
 
 checkTen(5)
-    .then(() => {
-        console.log("Greater than 10");
+    .then((data) => {
+        console.log(data);
     })
-    .catch(() => {
-        console.log("Less than 10");
+    .catch((error) => {
+        console.log(error);
     });
