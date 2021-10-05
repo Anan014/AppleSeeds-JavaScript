@@ -9,6 +9,12 @@ tryLetter.style.width = "13px"
 tryLetter.focus();
 
 document.body.style.textAlign = "center";
+document.body.style.display = "flex";
+document.body.style.flexDirection = "column";
+document.body.style.justifyContent = "center";
+document.body.style.alignItems = "center";
+document.body.style.height = "100vh";
+btn.style.width = "100%";
 
 let randomIndex = Math.floor(Math.random() * possibleAnswers.length),
     randomLetter = possibleAnswers[randomIndex],
