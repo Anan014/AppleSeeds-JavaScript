@@ -6,6 +6,7 @@ async function getData() {
     console.log(quotes);
     console.log(quotes_data);
     console.log("hello");
+    console.log(quotes[0]);
 }
 
 getData();
